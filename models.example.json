@@ -1,0 +1,26 @@
+{
+  "providers": {
+    "example-provider": {
+      "api": "openai-responses",
+      "baseUrl": "https://your-gateway.example.com/v1",
+      "apiKey": "YOUR_API_KEY_HERE",
+      "models": [
+        {
+          "id": "qwen3.7-max",
+          "name": "qwen3.7-max",
+          "api": "openai-responses",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "contextWindow": 256
+        },
+        {
+          "id": "glm-5.2",
+          "name": "glm-5.2",
+          "api": "openai-responses",
+          "reasoning": true,
+          "contextWindow": 256000
+        }
+      ]
+    }
+  }
+}

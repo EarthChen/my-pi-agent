@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:pi-mcp-adapter",
+    "npm:context-mode",
+    "npm:pi-lens",
+    "npm:pi-simplify",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@narumitw/pi-statusline",
+    "npm:@ff-labs/pi-fff",
+    "npm:pi-btw",
+    "npm:pi-codex-goal",
+    "npm:pi-cache-optimizer",
+    "npm:pi-workspace-history",
+    "npm:pi-wtf"
+  ],
+  "lastChangelogVersion": "0.82.1",
+  "theme": "dark"
+}
