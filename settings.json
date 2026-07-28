@@ -14,8 +14,17 @@
     "npm:pi-codex-goal",
     "npm:pi-cache-optimizer",
     "npm:pi-workspace-history",
-    "npm:pi-wtf"
+    "npm:pi-wtf",
+    "npm:pi-observational-memory"
   ],
   "lastChangelogVersion": "0.82.1",
-  "theme": "dark"
+  "theme": "dark",
+  "defaultProvider": "MOMO本地",
+  "defaultModel": "glm-5.2",
+  "defaultThinkingLevel": "high",
+  "observational-memory": {
+    "compactAfterTokens": 81000,
+    "compactAfterTokensMode": "ratio",
+    "compactAfterTokensRatio": 0.5
+  }
 }
