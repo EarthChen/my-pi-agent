@@ -25,5 +25,10 @@ trust.json
 # Local agent symlinks (point to machine-local ai-assets, not portable)
 agents/
 
+# Machine-local binaries & identifiers (not portable)
+bin/
+qoder-machine-id
+git/
+
 # OS
 .DS_Store
